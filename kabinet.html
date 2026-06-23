@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="kk"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>QazaqRead AI — Мұғалім кабинеті</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html"><span class="logo-mark">QR</span><span>QazaqRead AI<small>Оқу сауаттылығы радары</small></span></a>
+    <div class="menu">
+      <a href="index.html">Басты бет</a>
+      <a href="diagnostika.html">Диагностика</a>
+      <a href="tapsyrmalar.html">Жеке қолдау</a>
+      <a href="kabinet.html">Мұғалім кабинеті</a>
+      <a href="adistemelik.html">Әдістеме</a>
+    </div>
+  </div>
+</div>
+
+<section class="section"><div class="container"><div class="section-head"><div><h2>Мұғалім кабинеті</h2><p class="sub">Оқушы диагностикадан өткен сайын нәтиже осы жерге түседі. Қайта диагностикадан кейін динамика көрсетіледі.</p></div><div class="actions"><button class="btn secondary" onclick="makeSampleClass()">Үлгі деректерді жүктеу</button><button class="btn danger" onclick="clearClass()">Кестені тазалау</button></div></div><div class="card"><h3>Оқушы нәтижелері мониторингі</h3><div class="table-wrap"><table><thead><tr><th>Оқушы</th><th>Күні</th><th>Скрининг</th><th>Терең</th><th>Әлсіз дағды</th><th>Деңгей</th><th>Аймақ</th><th>Динамика</th></tr></thead><tbody id="classTable"></tbody></table></div></div><br><div class="zones"><div class="zone-card zred"><span>Қызыл аймақ</span><b id="count_red">0</b><small>шұғыл қолдау</small></div><div class="zone-card zyellow"><span>Сары аймақ</span><b id="count_yellow">0</b><small>қосымша жаттығу</small></div><div class="zone-card zgreen"><span>Жасыл аймақ</span><b id="count_green">0</b><small>дағды қалыптасқан</small></div><div class="zone-card zblue"><span>Көк аймақ</span><b id="count_blue">0</b><small>жоғары деңгей</small></div></div></div></section>
+<div class="footer"><div class="container">QazaqRead AI — диагностика → жеке қолдау → қайта тексеру жүйесі</div></div><script src="data.js"></script><script src="script.js"></script></body></html>

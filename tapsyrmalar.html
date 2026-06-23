@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="kk"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>QazaqRead AI — Жеке қолдау</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html"><span class="logo-mark">QR</span><span>QazaqRead AI<small>Оқу сауаттылығы радары</small></span></a>
+    <div class="menu">
+      <a href="index.html">Басты бет</a>
+      <a href="diagnostika.html">Диагностика</a>
+      <a href="tapsyrmalar.html">Жеке қолдау</a>
+      <a href="kabinet.html">Мұғалім кабинеті</a>
+      <a href="adistemelik.html">Әдістеме</a>
+    </div>
+  </div>
+</div>
+
+<section class="section"><div class="container"><div class="section-head"><div><h2 id="supportTitle">Жеке қолдау тапсырмалары</h2><p class="sub" id="supportSub">Диагностикадан кейін бұл бетте оқушының әлсіз дағдысына арналған кезеңдік тапсырмалар шығады.</p></div><a class="btn primary" href="diagnostika.html">Қайта диагностика</a></div><div class="card"><h3>Қолдау прогресі</h3><p id="progressText">Орындалған кезең: 0/6</p><div class="progress"><span id="progressBar"></span></div></div><br><div class="route" id="supportPlan"></div></div></section>
+<section class="section" style="padding-top:0"><div class="container"><div class="section-head"><div><h2>Қосымша тапсырма таңдау</h2><p class="sub">Мұғалім қажет болса, деңгей мен дағды бойынша қосымша тапсырма береді.</p></div></div><div class="card"><div class="form-grid"><div><label>Деңгей</label><select id="taskLevel"><option value="all">Барлығы</option><option value="beginner">Бастапқы</option><option value="middle" selected>Орта</option><option value="high">Жоғары</option></select></div><div><label>Дағды</label><select id="taskSkill"><option value="all">Барлығы</option><option value="main_idea">Негізгі ой</option><option value="info">Нақты ақпарат</option><option value="keywords">Кілт сөз</option><option value="cause">Себеп-салдар</option><option value="interpretation">Интерпретация</option><option value="author">Автор көзқарасы</option><option value="argument">Дәлелдеу</option></select></div><div><label>Әрекет</label><button class="btn primary" style="width:100%;justify-content:center" onclick="selectTask()">Тапсырма беру</button></div><div><label>Мақсат</label><input value="Дағдыны бекіту" readonly></div></div></div><br><div id="manualTask"></div></div></section>
+<div class="footer"><div class="container">QazaqRead AI — диагностика → жеке қолдау → қайта тексеру жүйесі</div></div><script src="data.js"></script><script src="script.js"></script></body></html>
